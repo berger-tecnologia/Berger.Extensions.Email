@@ -42,7 +42,7 @@ namespace Berger.Extensions.Email
                 Subject = message.Subject
             };
 
-            email.To.Add(message.Recipient);
+            email.To.Add(message.Target);
 
             return email;
         }
