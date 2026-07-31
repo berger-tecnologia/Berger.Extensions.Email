@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace Berger.Extensions.Email
 {
-    public class EmailService<T> : IEmailService<T> where T : Enum
+    public class EmailService<T>
     {
         #region Fields
         private readonly IConfiguration _config;
